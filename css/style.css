@@ -1,0 +1,141 @@
+/*OVERALL*/
+a {
+  text-decoration: none;
+  color: #0081cc;
+}
+
+img {
+  width: 150px;
+}
+
+body {
+  background-image: url("../images/zebra.png");
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+}
+
+body::after {
+  content: "";
+  background-image: url("../images/zebra.png");
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+p:first-child {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+/*NAVIGATION*/
+#navbar {
+  border-bottom: 2px solid #6E6E6E;
+  background-color: #E6E6E6;
+}
+
+#navbar a {
+  display: inline;
+  margin: 10px;
+}
+#navbar img {
+  width: 150px;
+  margin: 10px 25px;
+}
+
+#navbar ul {
+  display: inline;
+  margin: 10px 10px 10px 650px;
+}
+
+#navbar li {
+  list-style: none;
+  display: inline;
+  margin: 10px;
+  font-size: 20px;
+}
+
+/*ABOUT*/
+#about {
+  border-bottom: 2px solid #6E6E6E;
+  background-color: #F8F8F8;
+}
+
+#about p {
+  margin: 0px 50px 50px 50px;
+}
+
+#about p:first-child {
+  padding-top: 20px;
+}
+
+/*RESUME*/
+#resume {
+  border-bottom: 2px solid #6E6E6E;
+}
+
+#resume object {
+  width: 826px;
+  height: 1066px;
+  display: block;
+  margin: 0 auto 50px auto;
+}
+
+#resume p {
+  margin: 0px 50px 50px 50px;
+  padding-top: 20px;
+}
+
+/*PROJECTS*/
+#projects {
+  border-bottom: 2px solid #6E6E6E;
+  background-color: #F8F8F8;
+  width: 100%;
+}
+
+#projects p {
+  margin: 0px 50px 10px 50px;
+  padding-top: 20px;
+}
+
+#projects img {
+  margin: 0 0 0 90px;
+  width: 200px;
+}
+
+#projects .col {
+  display:inline-block;
+  height:350px;
+  margin: 20px;
+  vertical-align:top;
+}
+
+#projects #col-1 {
+  width: 420px;
+}
+
+#projects #col-2 {
+  width: 420px;
+}
+
+#projects #col-3 {
+  width: 420px;
+}
+
+/*CONTACT*/
+#contact {
+  margin: 50px;
+}
+
+#contact ul {
+  display: inline;
+}
+
+#contact li {
+  list-style: none;
+  display: inline;
+  margin: 10px;
+}
