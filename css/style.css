@@ -66,11 +66,12 @@ p:first-child {
 }
 
 #about p {
-  margin: 0px 50px 50px 50px;
+  margin: 0px 200px 50px 200px;
 }
 
 #about p:first-child {
   padding-top: 20px;
+  margin: 0 50px 50px 50px;
 }
 
 /*RESUME*/
